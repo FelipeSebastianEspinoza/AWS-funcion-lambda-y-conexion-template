@@ -1,0 +1,12 @@
+1) Iniciar sesion en AWS.
+2) Menu de servicios: RDS
+3) Create database: crear base de datos
+4) Seleccionamos las opciones . En templates
+seleccionamos free.
+6) creamos un password: pruebaaws1
+8) vamos a opciones adicionales y le ponemos nombre a la bd ya que el que le 
+ponemos al principio no es y aws no crea una por defecto
+*) tenemos que quitar las opciones de seguridad y permitir la conexion
+solo con contraseña
+7) una vez creada dar click en la base ded datos | tarda en crearse
+8) copiamos en endpoint
