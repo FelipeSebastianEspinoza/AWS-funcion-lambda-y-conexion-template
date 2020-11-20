@@ -1,0 +1,27 @@
+1) Cuenta en AWS
+2) Menu de servicios: Lambda
+3) Crear nueva opcion desde 0 
+/nombre toLowerCase / seleccionamos node 
+/ permisos crear rol / toLowerCaseRole / Crear funcion
+4) Aparece el panel
+5) Escribimos un codigo y le damos implementar
+---------------------------------------------
+const toLowerCase = async (event) => {
+let myWord = event.word.toLowerCase();
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify({myWord}),
+    };
+    return response;
+};
+exports.handler = toLowerCase;
+
+
+----------------------------------------------
+6) en menu de servicios seleccionamos api gateway
+7) seleccionamos API REST la que no dice privada y crear
+8) seleccionamos REST, API NUEVA -> nombre - crear
+9) acciones crear recurso -> nombre recurso10) en el recurso creamos un nuevo metodo POST y seleccionamos funcion Lambda
+10) acciones implementar API
+11) entrega una url pero esa no
+12) se va al metodo la url y POST aqui sale al url completa
