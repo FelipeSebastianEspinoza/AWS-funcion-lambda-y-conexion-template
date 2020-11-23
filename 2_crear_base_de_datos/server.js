@@ -6,7 +6,7 @@ var con = mysql.createConnection({
   password: "felipeaws",
   database: "databaseaws"
 });
-
+//test
 con.connect(function(err) {
   if (err) throw err;
   con.query("SELECT * FROM customers", function (err, result, fields) {
